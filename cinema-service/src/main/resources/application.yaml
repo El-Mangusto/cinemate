@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: cinema-service
+
+jwt:
+  secret: ${JWT_SECRET:change-me-in-production-please-use-env-var}
+  expiration-ms: 900000
